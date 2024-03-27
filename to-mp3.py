@@ -4,7 +4,7 @@ import subprocess
 
 import pytube
 
-FFMPEG = "d:/ffmpeg/bin/ffmpeg.exe"
+FFMPEG = "path/to/ffmpeg.exe"
 
 def convert_tracks_to_mp3s(tracks):
     for track in tracks:
